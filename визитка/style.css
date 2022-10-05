@@ -1,25 +1,31 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #010101;
-    --text: #ffffff;
-    --subtext: #8f8f8f;
-    --linktext: #cb782f;
+    --text: #FFFFFF;
+    --subtext: #8F8F8F;
+    --linktext: #CB782F;
     --underline: #444444;
-    --sectionbg: #1c1c1e;
-    --buttoncolor: #ffffff;
+    --sectionbg: #1C1C1E;
+    --buttoncolor: #FFFFFFSS;
   }
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg: #f5f5f5;
+    --bg: #FFFFFF;
     --text: #000000;
     --subtext: #808080;
-    --linktext: #cb782f;
-    --underline: #dadada;
-    --sectionbg: #ffffff;
-    --buttoncolor: #ffffff;
+    --linktext: #CB782F;
+    --underline: #DADADADA;
+    --sectionbg: #FFFFFF;
+    --buttoncolor: #FFFFFF;
   }
+}
+
+.parag {
+  color: #000000;
+  font-size: 60px;
+  margin: 30px 0px 10px 0px;
 }
 
 body {
